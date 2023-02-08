@@ -1,0 +1,58 @@
+//
+// structure-rtl.scss
+//
+
+
+// sidebar
+
+.side-menu{
+  border-left: 1px solid $sidebar-bg;
+  border-right: 0px ;
+}
+
+.side-menu-nav {
+  .nav-item {
+    .nav-link{
+      &::before{
+        left: -8px;
+        right: auto;
+      }
+    }
+  }
+}
+
+
+
+
+// Chat sidebar.scss
+
+.chat-user-img {
+  .user-status {
+    left: 0;
+    right: auto;
+  }
+}
+
+.profile-user {
+  .profile-photo-edit{
+    left: 0;
+    right: auto;
+  }
+}
+
+// contact list
+
+.contact-list {
+  li {
+      cursor: pointer;
+      padding: 8px 24px;
+  }
+}
+
+.contact-list-title{
+  &:after{
+      right: 50px;
+      left: 0;
+  }
+}
+

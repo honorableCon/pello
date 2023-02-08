@@ -1,0 +1,73 @@
+// 
+// pages-rtl.scss
+//
+
+
+#serachChatUser{
+ padding-right: 1rem !important
+}
+
+// user chat
+
+.chat-conversation {
+    .chat-avatar {
+        margin: 0 0 0 16px;
+    }
+}
+
+// .chat-user-img {
+//     .user-status {
+//         right: 0;
+//         left: auto;
+//     }
+// }
+
+.chat-conversation {
+    .conversation-list {
+        .message-img {
+            .message-img-link{
+                left: 10px;
+                right: auto;
+            }
+        }
+    }
+}
+
+.user-chat-topbar {
+    .topbar-bookmark {
+        .bookmark-tabs {
+            .tab-links{
+                border-left: 1px solid rgba($warning, 0.7);
+                border-right: 0;
+                &:first-child{
+                    padding-right: 4px;
+                    padding-left: 16px
+                }
+            }
+        }
+    }
+}
+
+
+
+
+// User profile details
+
+.user-profile-sidebar {
+
+    @media (min-width: 992px) {
+        border-right: 4px solid $border-color;
+        border-left: 0px;
+    }
+
+}
+
+
+
+// auth pages
+.auth-pass-inputgroup{
+    .end-0{
+        left: 0 !important;
+        right: auto !important;
+    }
+}
